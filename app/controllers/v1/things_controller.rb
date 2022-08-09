@@ -1,9 +1,9 @@
-class V1::ThingsController < applicationController
+class V1::ThingsController < ApplicationController
   def index
     render json: { :things => [
       {
         :name => 'something',
-        :guid => '12345'
-    }]}. to_json
+        :guid => '0415674d-a0e8-4748-af68-a5f53a05c453'
+    }]}.to_json
   end
 end
